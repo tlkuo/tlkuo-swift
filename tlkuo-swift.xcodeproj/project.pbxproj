@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					5BFAD8891C87317100DA365A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VVXY4GH26U;
 					};
 					5BFAD8A01C87317100DA365A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -403,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "tlkuo-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-swift";
@@ -414,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "tlkuo-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-swift";
@@ -488,6 +491,7 @@
 				5BFAD8B71C87317100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BFAD8B81C87317100DA365A /* Build configuration list for PBXNativeTarget "tlkuo-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +500,7 @@
 				5BFAD8BA1C87317100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BFAD8BB1C87317100DA365A /* Build configuration list for PBXNativeTarget "tlkuo-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				5BFAD8BD1C87317100DA365A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
