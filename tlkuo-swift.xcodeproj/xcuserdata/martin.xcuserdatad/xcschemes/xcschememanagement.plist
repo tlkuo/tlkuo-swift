@@ -4,8 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>tlkuo-pay-swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>tlkuo-swift.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -23,6 +30,21 @@
 			<true/>
 		</dict>
 		<key>5BFAD8AB1C87317100DA365A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BFAD8C31C8877E900DA365A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BFAD8D91C8877E900DA365A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BFAD8E41C8877E900DA365A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

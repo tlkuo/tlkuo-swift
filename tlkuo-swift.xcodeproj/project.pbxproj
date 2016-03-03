@@ -15,6 +15,14 @@
 		5BFAD89B1C87317100DA365A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD8991C87317100DA365A /* LaunchScreen.storyboard */; };
 		5BFAD8A61C87317100DA365A /* tlkuo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8A51C87317100DA365A /* tlkuo_swiftTests.swift */; };
 		5BFAD8B11C87317100DA365A /* tlkuo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8B01C87317100DA365A /* tlkuo_swiftUITests.swift */; };
+		5BFAD8C71C8877E900DA365A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8C61C8877E900DA365A /* AppDelegate.swift */; };
+		5BFAD8C91C8877E900DA365A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8C81C8877E900DA365A /* ViewController.swift */; };
+		5BFAD8CC1C8877E900DA365A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD8CA1C8877E900DA365A /* Main.storyboard */; };
+		5BFAD8CF1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8CD1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodeld */; };
+		5BFAD8D11C8877E900DA365A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD8D01C8877E900DA365A /* Assets.xcassets */; };
+		5BFAD8D41C8877E900DA365A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFAD8D21C8877E900DA365A /* LaunchScreen.storyboard */; };
+		5BFAD8DF1C8877E900DA365A /* tlkuo_pay_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8DE1C8877E900DA365A /* tlkuo_pay_swiftTests.swift */; };
+		5BFAD8EA1C8877E900DA365A /* tlkuo_pay_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFAD8E91C8877E900DA365A /* tlkuo_pay_swiftUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5BFAD8891C87317100DA365A;
 			remoteInfo = "tlkuo-swift";
+		};
+		5BFAD8DB1C8877E900DA365A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFAD8821C87317100DA365A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFAD8C31C8877E900DA365A;
+			remoteInfo = "tlkuo-pay-swift";
+		};
+		5BFAD8E61C8877E900DA365A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFAD8821C87317100DA365A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFAD8C31C8877E900DA365A;
+			remoteInfo = "tlkuo-pay-swift";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +71,20 @@
 		5BFAD8AC1C87317100DA365A /* tlkuo-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tlkuo-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFAD8B01C87317100DA365A /* tlkuo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tlkuo_swiftUITests.swift; sourceTree = "<group>"; };
 		5BFAD8B21C87317100DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAD8C41C8877E900DA365A /* tlkuo-pay-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tlkuo-pay-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD8C61C8877E900DA365A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BFAD8C81C8877E900DA365A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BFAD8CB1C8877E900DA365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BFAD8CE1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tlkuo_pay_swift.xcdatamodel; sourceTree = "<group>"; };
+		5BFAD8D01C8877E900DA365A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BFAD8D31C8877E900DA365A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BFAD8D51C8877E900DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAD8DA1C8877E900DA365A /* tlkuo-pay-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tlkuo-pay-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD8DE1C8877E900DA365A /* tlkuo_pay_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tlkuo_pay_swiftTests.swift; sourceTree = "<group>"; };
+		5BFAD8E01C8877E900DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFAD8E51C8877E900DA365A /* tlkuo-pay-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tlkuo-pay-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BFAD8E91C8877E900DA365A /* tlkuo_pay_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tlkuo_pay_swiftUITests.swift; sourceTree = "<group>"; };
+		5BFAD8EB1C8877E900DA365A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +109,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BFAD8C11C8877E900DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8D71C8877E900DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8E21C8877E900DA365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +139,9 @@
 				5BFAD88C1C87317100DA365A /* tlkuo-swift */,
 				5BFAD8A41C87317100DA365A /* tlkuo-swiftTests */,
 				5BFAD8AF1C87317100DA365A /* tlkuo-swiftUITests */,
+				5BFAD8C51C8877E900DA365A /* tlkuo-pay-swift */,
+				5BFAD8DD1C8877E900DA365A /* tlkuo-pay-swiftTests */,
+				5BFAD8E81C8877E900DA365A /* tlkuo-pay-swiftUITests */,
 				5BFAD88B1C87317100DA365A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +152,9 @@
 				5BFAD88A1C87317100DA365A /* tlkuo-swift.app */,
 				5BFAD8A11C87317100DA365A /* tlkuo-swiftTests.xctest */,
 				5BFAD8AC1C87317100DA365A /* tlkuo-swiftUITests.xctest */,
+				5BFAD8C41C8877E900DA365A /* tlkuo-pay-swift.app */,
+				5BFAD8DA1C8877E900DA365A /* tlkuo-pay-swiftTests.xctest */,
+				5BFAD8E51C8877E900DA365A /* tlkuo-pay-swiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +189,38 @@
 				5BFAD8B21C87317100DA365A /* Info.plist */,
 			);
 			path = "tlkuo-swiftUITests";
+			sourceTree = "<group>";
+		};
+		5BFAD8C51C8877E900DA365A /* tlkuo-pay-swift */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD8C61C8877E900DA365A /* AppDelegate.swift */,
+				5BFAD8C81C8877E900DA365A /* ViewController.swift */,
+				5BFAD8CA1C8877E900DA365A /* Main.storyboard */,
+				5BFAD8D01C8877E900DA365A /* Assets.xcassets */,
+				5BFAD8D21C8877E900DA365A /* LaunchScreen.storyboard */,
+				5BFAD8D51C8877E900DA365A /* Info.plist */,
+				5BFAD8CD1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodeld */,
+			);
+			path = "tlkuo-pay-swift";
+			sourceTree = "<group>";
+		};
+		5BFAD8DD1C8877E900DA365A /* tlkuo-pay-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD8DE1C8877E900DA365A /* tlkuo_pay_swiftTests.swift */,
+				5BFAD8E01C8877E900DA365A /* Info.plist */,
+			);
+			path = "tlkuo-pay-swiftTests";
+			sourceTree = "<group>";
+		};
+		5BFAD8E81C8877E900DA365A /* tlkuo-pay-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD8E91C8877E900DA365A /* tlkuo_pay_swiftUITests.swift */,
+				5BFAD8EB1C8877E900DA365A /* Info.plist */,
+			);
+			path = "tlkuo-pay-swiftUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +279,59 @@
 			productReference = 5BFAD8AC1C87317100DA365A /* tlkuo-swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5BFAD8C31C8877E900DA365A /* tlkuo-pay-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD8EC1C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swift" */;
+			buildPhases = (
+				5BFAD8C01C8877E900DA365A /* Sources */,
+				5BFAD8C11C8877E900DA365A /* Frameworks */,
+				5BFAD8C21C8877E900DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tlkuo-pay-swift";
+			productName = "tlkuo-pay-swift";
+			productReference = 5BFAD8C41C8877E900DA365A /* tlkuo-pay-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BFAD8D91C8877E900DA365A /* tlkuo-pay-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD8EF1C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swiftTests" */;
+			buildPhases = (
+				5BFAD8D61C8877E900DA365A /* Sources */,
+				5BFAD8D71C8877E900DA365A /* Frameworks */,
+				5BFAD8D81C8877E900DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BFAD8DC1C8877E900DA365A /* PBXTargetDependency */,
+			);
+			name = "tlkuo-pay-swiftTests";
+			productName = "tlkuo-pay-swiftTests";
+			productReference = 5BFAD8DA1C8877E900DA365A /* tlkuo-pay-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BFAD8E41C8877E900DA365A /* tlkuo-pay-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BFAD8F21C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swiftUITests" */;
+			buildPhases = (
+				5BFAD8E11C8877E900DA365A /* Sources */,
+				5BFAD8E21C8877E900DA365A /* Frameworks */,
+				5BFAD8E31C8877E900DA365A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BFAD8E71C8877E900DA365A /* PBXTargetDependency */,
+			);
+			name = "tlkuo-pay-swiftUITests";
+			productName = "tlkuo-pay-swiftUITests";
+			productReference = 5BFAD8E51C8877E900DA365A /* tlkuo-pay-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +354,17 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 5BFAD8891C87317100DA365A;
 					};
+					5BFAD8C31C8877E900DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5BFAD8D91C8877E900DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5BFAD8C31C8877E900DA365A;
+					};
+					5BFAD8E41C8877E900DA365A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5BFAD8C31C8877E900DA365A;
+					};
 				};
 			};
 			buildConfigurationList = 5BFAD8851C87317100DA365A /* Build configuration list for PBXProject "tlkuo-swift" */;
@@ -224,6 +383,9 @@
 				5BFAD8891C87317100DA365A /* tlkuo-swift */,
 				5BFAD8A01C87317100DA365A /* tlkuo-swiftTests */,
 				5BFAD8AB1C87317100DA365A /* tlkuo-swiftUITests */,
+				5BFAD8C31C8877E900DA365A /* tlkuo-pay-swift */,
+				5BFAD8D91C8877E900DA365A /* tlkuo-pay-swiftTests */,
+				5BFAD8E41C8877E900DA365A /* tlkuo-pay-swiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +409,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5BFAD8AA1C87317100DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8C21C8877E900DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD8D41C8877E900DA365A /* LaunchScreen.storyboard in Resources */,
+				5BFAD8D11C8877E900DA365A /* Assets.xcassets in Resources */,
+				5BFAD8CC1C8877E900DA365A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8D81C8877E900DA365A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8E31C8877E900DA365A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,6 +468,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BFAD8C01C8877E900DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD8C91C8877E900DA365A /* ViewController.swift in Sources */,
+				5BFAD8CF1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodeld in Sources */,
+				5BFAD8C71C8877E900DA365A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8D61C8877E900DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD8DF1C8877E900DA365A /* tlkuo_pay_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFAD8E11C8877E900DA365A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFAD8EA1C8877E900DA365A /* tlkuo_pay_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,6 +506,16 @@
 			isa = PBXTargetDependency;
 			target = 5BFAD8891C87317100DA365A /* tlkuo-swift */;
 			targetProxy = 5BFAD8AD1C87317100DA365A /* PBXContainerItemProxy */;
+		};
+		5BFAD8DC1C8877E900DA365A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BFAD8C31C8877E900DA365A /* tlkuo-pay-swift */;
+			targetProxy = 5BFAD8DB1C8877E900DA365A /* PBXContainerItemProxy */;
+		};
+		5BFAD8E71C8877E900DA365A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BFAD8C31C8877E900DA365A /* tlkuo-pay-swift */;
+			targetProxy = 5BFAD8E61C8877E900DA365A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +532,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5BFAD89A1C87317100DA365A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5BFAD8CA1C8877E900DA365A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BFAD8CB1C8877E900DA365A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BFAD8D21C8877E900DA365A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BFAD8D31C8877E900DA365A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -474,6 +712,76 @@
 			};
 			name = Release;
 		};
+		5BFAD8ED1C8877E900DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tlkuo-pay-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BFAD8EE1C8877E900DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tlkuo-pay-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BFAD8F01C8877E900DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tlkuo-pay-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tlkuo-pay-swift.app/tlkuo-pay-swift";
+			};
+			name = Debug;
+		};
+		5BFAD8F11C8877E900DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tlkuo-pay-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tlkuo-pay-swift.app/tlkuo-pay-swift";
+			};
+			name = Release;
+		};
+		5BFAD8F31C8877E900DA365A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tlkuo-pay-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tlkuo-pay-swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BFAD8F41C8877E900DA365A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tlkuo-pay-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.frb.tlkuo-pay-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tlkuo-pay-swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,6 +821,30 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5BFAD8EC1C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD8ED1C8877E900DA365A /* Debug */,
+				5BFAD8EE1C8877E900DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BFAD8EF1C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD8F01C8877E900DA365A /* Debug */,
+				5BFAD8F11C8877E900DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BFAD8F21C8877E900DA365A /* Build configuration list for PBXNativeTarget "tlkuo-pay-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BFAD8F31C8877E900DA365A /* Debug */,
+				5BFAD8F41C8877E900DA365A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -523,6 +855,16 @@
 			);
 			currentVersion = 5BFAD8951C87317100DA365A /* tlkuo_swift.xcdatamodel */;
 			path = tlkuo_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5BFAD8CD1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BFAD8CE1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodel */,
+			);
+			currentVersion = 5BFAD8CE1C8877E900DA365A /* tlkuo_pay_swift.xcdatamodel */;
+			path = tlkuo_pay_swift.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
